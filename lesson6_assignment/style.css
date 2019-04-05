@@ -1,5 +1,6 @@
 @charset "UTF-8";
-/* CSS Document created by Christy Chatmon, Spring 2019*/
+/* CSS Document created by Ken Baldauf, January 26, 2011 updated August 2014,*/
+/*Edited by Chris Buckley, April 5, 2019*/
 
 body {
 	margin: 0;
@@ -16,14 +17,14 @@ body {
 p, li, td {
 	letter-spacing: 0.1em;
 	color: #FFFFFF;
-		padding: 0 12.1px;
+		padding: 0 30px;
 }
 h1 {
 	font-size: 28px;
 	font-variant: small-caps;
 	letter-spacing: .17em;
 	line-height: 2.2em;
-	padding: 0 320px;
+	padding: 0 30px;
 }
 h2 {
 	font-size: 24px;
@@ -112,7 +113,8 @@ iframe {
 #header{
 	width: 100%;
 	background-color: #496B99;
-	padding-bottom: 45px;
+	border-bottom: 2px solid #143766;
+	padding-bottom: 20px;
 	
 
 	

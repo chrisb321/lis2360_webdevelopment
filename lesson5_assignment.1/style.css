@@ -19,11 +19,11 @@ p, li, td {
 		padding: 0 12.1px;
 }
 h1 {
-	font-size: 28px;
-	font-variant: small-caps;
+	font-size: 32px;
+	font-variant: small-caps
 	letter-spacing: .17em;
 	line-height: 2.2em;
-	padding: 0 320px;
+	padding: 0 150px;
 }
 h2 {
 	font-size: 24px;
