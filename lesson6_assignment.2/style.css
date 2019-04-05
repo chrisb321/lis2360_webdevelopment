@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* CSS Document created by Christy Chatmon, Spring 2019*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, Times;
+	line-height: 1.6em;
+	letter-spacing: .03em;
+	color: #FFFFFF;
+	background-color: #3A5787;
+	
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+		padding: 0 12.1px;
+}
+h1 {
+	font-size: 28px;
+	font-variant: small-caps;
+	letter-spacing: .17em;
+	line-height: 2.2em;
+	padding: 0 320px;
+}
+h2 {
+	font-size: 24px;
+	padding: 20px 20px 20px 20px;
+	font-variant: small-caps;
+	letter-spacing: 0.2em;
+	padding: 0 30px;
+	
+}
+h3 {
+	font-size: 19px;
+	letter-spacing: 0.4em;
+	padding: 0 30px;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #061221;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #061221;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFFFFF;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+	color: rgb(255, 255, 255)
+}
+ol {
+	margin-left: 12px;
+	
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #143766 1px;
+}
+td {
+	padding: 5px;
+	border: solid #143766 1px;
+	background-color: #496C99;
+
+}
+th {
+	font-weight: bold;
+	background-color: #496C99;
+	text-align: center;
+	padding: 5px;
+	border: solid #143766 1px;
+
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #143766 1px;
+}
+
+img {
+	border: solid #143766 2px;
+
+}
+iframe {
+	border: solid #143766 1px;
+	padding: 9px;
+	margin: 9px;
+}
+/* DIV STYLES FOR PAGE LAYOUT*/
+#container{
+	width: 1200px;
+	background-color: #496B99;
+	overflow: hidden;
+	margin: 0 auto;
+
+}
+
+#header{
+	width: 100%;
+	background-color: #496B99;
+	padding-bottom: 45px;
+	
+
+	
+}
+#content{
+	width: 920px;
+	float: left;
+	padding-bottom: 20px;
+	padding: 0 30px;
+}
+#sidebar.sidebar1{
+	width: 190px;
+	float: left;
+	margin-top: 55px;
+	margin-right: 30px;
+}
+#sidebar p{
+	padding: 10px;
+	background: #2B406D;
+	border: 1px solid #143766;
+	border-radius: 10px;
+	box-shadow: 7px 7px 3px #03040D;
+	
+}
+#sidebar.sidebar2{
+	width: 300px;
+	float: right;
+	margin-top: 60px;
+}
+#sidebar p{
+	padding: 10px;
+	background: #2B406D;
+	border: 1px solid #143766;
+	border-radius: 10px;
+	box-shadow: 7px 7px 3px #03040D;
+	
+}
+#footer{
+	width: 100%;
+	background-color: #496B99;
+	padding: 20px 0;
+	border-top: 2px solid #143766;
+
+	clear: both;
+}
+
+
+#footer p{
+	margin: 20px;
+}
