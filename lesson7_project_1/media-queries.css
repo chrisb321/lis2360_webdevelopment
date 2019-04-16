@@ -1,6 +1,0 @@
-@charset "UTF-8";
-@media screen and (max-width: 960px) {
-.container {
-  width: 90%; /* static width container always stays at this width no matter what the window size */
- }
-}
